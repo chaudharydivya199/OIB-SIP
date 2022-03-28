@@ -1,0 +1,65 @@
+body
+{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container
+{
+    display:flex;
+    height:100vh;   
+}
+
+.content
+{
+    width:70%;
+    background-color:black;
+    color:white;
+    padding: 30px 60px;
+    text-align:center;
+}
+img
+{
+    height:100vh;
+    width:100%;
+}
+.quote
+{
+    font-weight:bold;
+    position:relative;
+    top:10%;
+    font-size:20px;
+    letter-spacing:2px;
+}
+.poet
+{
+    font-weight:bold;
+    position:relative;
+    top:10%;
+    font-size:20px;
+}
+.name
+{
+    font-size:25px;
+    font-weight:bold;
+    text-shadow:3px 1px grey;
+}
+.bio_head
+{
+    position:relative;
+    top:26%;
+    letter-spacing:2px;
+}
+.bio
+{
+    position:relative;
+    top:28%;
+    font-size:18px;
+    line-height:25px;
+    
+}
+hr
+{
+    position:relative;
+    top:26%;
+}

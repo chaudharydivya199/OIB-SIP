@@ -1,0 +1,111 @@
+body
+{
+    background-color:grey;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container
+{
+    background-color:white;
+    height:85vh;
+    width:35%;
+    position:absolute;
+    left:30%;
+    bottom:10%;
+    border-radius:20px;
+}
+.header
+{
+    background-color:purple;
+    width:100%;
+    height:15%;
+   
+
+}
+.content
+{
+    display:flex;
+    justify-content:space-around;
+    
+}
+#to_do_heading,#completed_heading
+{
+    padding:15px;
+    font-size:larger;
+    cursor:pointer;
+    color:Blue;
+    letter-spacing:2px;
+}
+.a 
+{
+    border-bottom:2px solid red;
+    padding:15px;
+    font-size:larger;
+    cursor:pointer;
+    color:Blue;
+    letter-spacing:2px;
+}
+
+#date
+{
+    font-size:23px;
+    word-spacing:1.5px;
+    font-style:italic;
+    font-family:cursive;
+    color:white;
+    padding:30px 40px;
+}
+
+.input
+{
+    
+    position:absolute;
+    bottom:0px;
+    padding:20px;
+    width:100%;
+}
+input[type="text"]
+{
+    width:350px;
+    padding:10px;
+    font-size:20px;
+}
+
+
+
+.items,.items1
+{
+    padding:15px;
+  
+}
+#unlist,#unlist1
+{
+    height:46vh;
+    overflow:auto;
+    padding: 0px 10px;
+}
+li
+{
+    padding:10px;
+    font-size:20px;
+}
+.listitem
+{
+    display:flex;
+    justify-content:space-between;
+}
+.fa 
+{
+    cursor:pointer;
+}
+.text
+{
+    padding-left:10px;
+}
+.fa-plus-circle
+{
+    color:blue;
+    font-size:30px;
+    padding:8px;
+}

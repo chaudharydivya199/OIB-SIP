@@ -21,6 +21,7 @@ const UNCHECK = "fa-circle-thin";
 const LINE_THROUGH = "linethrough";
 
 
+document.addEventListener("load",hide())
 
 document.addEventListener("keyup",function(event)
 {
@@ -44,13 +45,17 @@ document.addEventListener("keyup",function(event)
     
 });
 
-todolist.addEventListener("click",function(event)
+function hide(event)
 {
-list1.style.display='none';
-list.style.display='block';
-input.style.display="inline";
-todolist.setAttribute('class',"a");
-comlist.classList.remove("a");
+    list1.style.display='none';
+    list.style.display='block';
+    input.style.display="inline";
+    todolist.setAttribute('class',"a");
+    comlist.classList.remove("a");
+}
+
+todolist.addEventListener("click",function (event){
+hide(event);
 });
 comlist.addEventListener("click",function(event)
 {
